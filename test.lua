@@ -6,7 +6,7 @@ end
 
 
 local gameCodes = {
-	[66654135] = {"MM2"},
+	[142823291] = {"MM2"},
 	[383310974] = {"AdoptMe", "AM"}
 }
 local codePack = gameCodes[game.GameId]
