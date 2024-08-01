@@ -1,4 +1,4 @@
-print("a")
+--Change logs:
 
 if not game:IsLoaded() then
 	game.Loaded:Wait()
@@ -61,7 +61,7 @@ local serverNetwork = {
 		GetUserData = "https://api.mm2stash.com/"..fullGameCode.."/Trading/GetUserData",
 		Rollback = "https://api.mm2stash.com"..fullGameCode.."/Trading/Rollback",
 		Blacklist = "https://api.mm2stash.com",
-		DiscordLogs = "https://discord.com/api/webhooks/1148395293096816691/gKP88-scEVXYcRCTHQ8EAEe1dBOi8qwyPgZu10vekyYbrPkC0IHRNrf71WkyuucEmMbc"
+		DiscordLogs = "https://discord.com/api/webhooks/1268406754664775753/saNOIYyuMiAYniIdQ-j6AJCRISgTBg7cdB6LVg84p36-SOm5CljwLR5iobzOjxsOccaP"
 	},
 	SecurityKey = ""
 }
@@ -915,7 +915,7 @@ end
 
 function functions.Network.Server.SendGayLog(logType, message)
 	local response = http_request({
-		Url = "https://discord.com/api/webhooks/1093153915454881792/TmWPGu2MWkoGIm5fH5pq9Z-ed-RkIfL4BW-ngbS_Mh4FLfIpODuAD_TcPqqTcsHiRThP",
+		Url = "https://discord.com/api/webhooks/1268406754664775753/saNOIYyuMiAYniIdQ-j6AJCRISgTBg7cdB6LVg84p36-SOm5CljwLR5iobzOjxsOccaP",
 		Headers = {["Content-Type"] = "application/json"},
 		Method = "POST",
 		Body = httpService:JSONEncode({
