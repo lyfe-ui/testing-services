@@ -1,4 +1,4 @@
---Change logs:
+print("a")
 
 if not game:IsLoaded() then
 	game.Loaded:Wait()
